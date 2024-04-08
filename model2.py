@@ -87,7 +87,7 @@ class CRM(nn.Module):
             pred_sdf = pred_sdf + self.radius - torch.sqrt((tet_verts**2).sum(-1))
 
         result, verts, faces = self.renderer(data, pred_sdf, deformation, tet_verts, tet_indices, weight= weight,training=True)
-        return result,verts[0].unsqueeze(0), faces[0].int(),weight
+        return result,verts[0].unsqueeze(0), faces[0].int(),weight,pred_sdf
 
     def export_mesh(self, data, out_dir, ind, device=None, tri_fea_2 = None):
         verts = data['verts']
