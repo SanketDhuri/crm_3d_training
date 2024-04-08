@@ -13,7 +13,7 @@ This repository contains the necessary files and instructions for setting up the
   `from model.crm.model2 import CRM as train_crm`
 4. Add the rest of the necessary files to the directory as instructed.
 
-   #[update 08-04-2024]
+   ## [update 08-04-2024]
 - made changes as suggested https://github.com/thu-ml/CRM/issues/3#issuecomment-2039220300
 - added sample data 
 
