@@ -1,6 +1,6 @@
 # CRM Model Training
 This repository contains the necessary files and instructions for setting up the environment and training the CRM model.
-
+This repository is specifically designed to train 3D geometry ie CRM model, as I am deliberately inputting RGB images (manually captured) and CCM images (previously generated).
 ## Setup
 
 1. Clone the CRM repository: git clone https://github.com/thu-ml/CRM
