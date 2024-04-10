@@ -25,7 +25,5 @@ Feel free to contribute to this project by submitting pull requests or opening i
 
 ## Acknowledgement
 - [CRM](https://github.com/thu-ml/CRM)
-- [ImageDream](https://github.com/bytedance/ImageDream)
 - [nvdiffrast](https://github.com/NVlabs/nvdiffrast)
-- [kiuikit](https://github.com/ashawkey/kiuikit)
 - [GET3D](https://github.com/nv-tlabs/GET3D)
